@@ -11,7 +11,11 @@
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/PDF-PyMuPDF-285D49?style=flat-square" alt="PyMuPDF">
   <img src="https://img.shields.io/badge/работает-локально-51845D?style=flat-square" alt="Локальная обработка">
+  <img src="https://img.shields.io/github/v/release/Xffxffxff228/list-pdf-editor?style=flat-square&label=релиз" alt="Последний релиз">
+  <img src="https://img.shields.io/github/license/Xffxffxff228/list-pdf-editor?style=flat-square" alt="Лицензия MIT">
 </p>
+
+<p align="center"><a href="https://github.com/Xffxffxff228/list-pdf-editor/releases/latest">Скачать исходный код последнего релиза</a></p>
 
 ## Как это работает
 
