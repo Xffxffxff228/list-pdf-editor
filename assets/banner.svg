@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Лист — редактор текста в PDF</title>
+  <desc id="desc">Лёгкий локальный PDF редактор с настоящей заменой текста</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173f32"/>
+      <stop offset="1" stop-color="#285d49"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ddf2df"/>
+      <stop offset="1" stop-color="#b6ddc1"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#102e24" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="1140" cy="25" r="260" fill="#5d9877" opacity=".16"/>
+  <circle cx="1080" cy="410" r="230" fill="#9bcba5" opacity=".12"/>
+  <path d="M0 335C180 287 320 386 490 347s274-79 421-33 255 54 369 16v90H0z" fill="#102f25" opacity=".2"/>
+  <g transform="translate(100 82)">
+    <rect width="58" height="58" rx="18" fill="url(#mint)"/>
+    <path d="M18 14h17l9 9v22H18z" fill="#285d49"/>
+    <path d="M35 14v10h9M23 31h16M23 37h13" fill="none" stroke="#ddf2df" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="76" y="43" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="36" font-weight="750" letter-spacing="-1.5">лист</text>
+  </g>
+  <text x="100" y="226" fill="#fff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="720" letter-spacing="-1.7">Поменяйте текст.</text>
+  <text x="100" y="286" fill="#cfe7d5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="52" font-weight="720" letter-spacing="-1.7">Оставьте PDF.</text>
+  <text x="103" y="335" fill="#d5e7da" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Редактирование локально · Русский текст · PyMuPDF</text>
+  <g transform="translate(850 47) rotate(5 150 165)" filter="url(#shadow)">
+    <rect x="0" y="0" width="270" height="320" rx="20" fill="#f9fbf8"/>
+    <path d="M215 0v55h55" fill="#e9f1eb"/>
+    <path d="M215 0v55h55" fill="none" stroke="#dce8de" stroke-width="2"/>
+    <rect x="34" y="73" width="91" height="11" rx="5.5" fill="#cfd8d0"/>
+    <rect x="34" y="104" width="198" height="10" rx="5" fill="#e0e6e0"/>
+    <rect x="34" y="126" width="170" height="10" rx="5" fill="#e0e6e0"/>
+    <rect x="34" y="148" width="188" height="10" rx="5" fill="#e0e6e0"/>
+    <rect x="29" y="185" width="210" height="42" rx="8" fill="#e5f2e7" stroke="#70aa7b" stroke-width="2"/>
+    <text x="40" y="212" fill="#9ba69c" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" text-decoration="line-through">старый текст</text>
+    <path d="M144 197h61" stroke="#285d49" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="40" y="253" fill="#285d49" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="650">новая версия</text>
+    <rect x="34" y="278" width="122" height="9" rx="4.5" fill="#e0e6e0"/>
+  </g>
+  <g transform="translate(1100 312) rotate(-8)" filter="url(#shadow)">
+    <rect width="112" height="44" rx="22" fill="#dff2df"/>
+    <circle cx="23" cy="22" r="7" fill="#3f8a5a"/>
+    <text x="39" y="27" fill="#285d49" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">локально</text>
+  </g>
+</svg>
+
