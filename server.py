@@ -9,7 +9,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse
 
-import fitz
+import pymupdf as fitz
 
 
 ROOT = Path(__file__).resolve().parent
