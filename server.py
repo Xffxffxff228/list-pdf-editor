@@ -64,14 +64,16 @@ def replace_pdf_text(data: bytes, page_number: int, box: dict, value: str) -> by
     displayed = page.rect
     rect = fitz.Rect(x * displayed.width, y * displayed.height,
                      (x + w) * displayed.width, (y + h) * displayed.height)
+    bounds = page.rect
     if page.rotation:
         rect = rect * page.derotation_matrix
-    rect = rect & page.cropbox
+        bounds = page.cropbox
+    rect = rect & bounds
     if rect.is_empty or rect.is_infinite:
         doc.close()
         raise ValueError("Не удалось определить область текста")
     rect = fitz.Rect(rect.x0 - 0.8, rect.y0 - 0.8,
-                     rect.x1 + 0.8, rect.y1 + 0.8) & page.cropbox
+                     rect.x1 + 0.8, rect.y1 + 0.8) & bounds
 
     spans = []
     for block in page.get_text("dict").get("blocks", []):
